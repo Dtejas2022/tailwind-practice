@@ -655,6 +655,21 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mx-\[\] {
+  margin-left: ;
+  margin-right: ;
+}
+
+.mx-\[10\] {
+  margin-left: 10;
+  margin-right: 10;
+}
+
+.mx-\[10px\] {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -689,6 +704,14 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.mr-12 {
+  margin-right: 3rem;
 }
 
 .block {
@@ -733,6 +756,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-14 {
+  height: 3.5rem;
 }
 
 .w-12 {
@@ -900,6 +927,16 @@ video {
   border-bottom-left-radius: 0.75rem;
 }
 
+.rounded-e-lg {
+  border-start-end-radius: 0.5rem;
+  border-end-end-radius: 0.5rem;
+}
+
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -981,6 +1018,16 @@ video {
   background-color: rgb(79 70 229 / var(--tw-bg-opacity));
 }
 
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
 .stroke-2 {
   stroke-width: 2;
 }
@@ -1043,6 +1090,16 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -1061,6 +1118,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-sm {
